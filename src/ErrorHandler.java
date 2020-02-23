@@ -7,7 +7,10 @@ public class ErrorHandler {
         vehicleDepotAssignDuplicate,
         tourInvalidClientOrder,
         tourDuplicateClient,
-        solutionInvalid;
+        solutionInvalid,
+
+        costsNullNodeCount,
+        noCostsAssigned
     }
 
     public static String getErrorString(Error error){
@@ -22,6 +25,8 @@ public class ErrorHandler {
             case tourInvalidClientOrder:      return "Can only add increasing visiting times in tour";
             case tourDuplicateClient:         return "Cannot make tour go to the same client twice";
             case solutionInvalid:             return "Cannot generate solution to problem";
+            case costsNullNodeCount:          return "Cannot generate costs, no node count assigned";
+            case noCostsAssigned:             return "No costs assigned to costs matrix";
             default:                          return "Unknown error";
         }
     }

@@ -3,26 +3,42 @@ import org.jetbrains.annotations.NotNull;
 import java.util.Arrays;
 
 public class Tour{
+    public enum Constraint{
+        costInsteadOfOrder
+    }
+
     private Vehicle vehicle;
     private Client[] clients;
     private int clientCount;
+
+    private Constraint[] constraints;
+
+    public void setConstraints(Constraint ... constraints) {
+        this.constraints = Arrays.copyOf(constraints, constraints.length);
+    }
 
     public Tour(){
         this.vehicle = null;
         this.clients = null;
         this.clientCount = 0;
+
+        this.constraints = null;
     }
 
     public Tour(Vehicle vehicle){
         this.vehicle = vehicle;
         this.clients = null;
         this.clientCount = 0;
+
+        this.constraints = null;
     }
 
     public Tour(Vehicle vehicle, @NotNull Client ... clients){
         this.vehicle = vehicle;
         this.clients = Arrays.copyOf(clients, clients.length);
         this.clientCount = clients.length;
+
+        this.constraints = null;
     }
 
     public Client[] getClients(){
@@ -48,6 +64,12 @@ public class Tour{
 
     private boolean checkTour(){
         this.shrinkClientsToFit();
+
+        if(this.constraints != null)
+            for( Constraint i : this.constraints )
+                if( i == Constraint.costInsteadOfOrder )
+                    return true;
+
         for(int i = 0; i < this.clientCount - 1; i++)
             if(this.clients[i].getVisitingTime() >= this.clients[i+1].getVisitingTime())
                 return false;

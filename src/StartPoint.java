@@ -28,5 +28,8 @@ public class StartPoint{
         Solution solution = new Solution(MDVSP);
 
         System.out.println(solution);
+
+        Bonus bonus = new Bonus(MDVSP, 10);
+        bonus.printCosts();
     }
 }
