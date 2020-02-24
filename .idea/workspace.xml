@@ -1,18 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ee84df29-14f8-4850-9527-78398e0acc11" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Cost.java" afterDir="false" />
+    <list default="true" id="ee84df29-14f8-4850-9527-78398e0acc11" name="Default Changelist" comment="Added Class Cost, Bonus&#10;Implemented Costs and Cost ordering&#10;TODO: Kruskal">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Graph.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lab2/Car.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab2/Car.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lab2/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab2/Client.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lab2/Depot.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab2/Depot.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lab2/Drone.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab2/Drone.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/lab2/ErrorHandler$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab2/ErrorHandler$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/lab2/ErrorHandler$Error.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab2/ErrorHandler$Error.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/lab2/ErrorHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab2/ErrorHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lab2/Problem.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab2/Problem.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lab2/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab2/Solution.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/lab2/StartPoint.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab2/StartPoint.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lab2/Tour$Constraint.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab2/Tour$Constraint.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/lab2/Tour.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab2/Tour.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Bonus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bonus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Cost.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Cost.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Depot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Depot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Drone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Drone.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ErrorHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ErrorHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Problem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Problem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/StartPoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/StartPoint.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Tour.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tour.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Truck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Truck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Vehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Vehicle.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,6 +64,7 @@
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
@@ -78,6 +96,14 @@
       <option name="presentableId" value="Default" />
       <updated>1582359346823</updated>
     </task>
+    <task id="LOCAL-00001" summary="Added Class Cost, Bonus&#10;Implemented Costs and Cost ordering&#10;TODO: Kruskal">
+      <created>1582448293188</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1582448293188</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -90,6 +116,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Added Class Cost, Bonus&#10;Implemented Costs and Cost ordering&#10;TODO: Kruskal" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Class Cost, Bonus&#10;Implemented Costs and Cost ordering&#10;TODO: Kruskal" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="178" key="#Project_Structure" timestamp="1582359364279">
@@ -116,22 +146,38 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="619" y="352" key="FileDocumentManager.FileCacheConflict/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1582361856627" />
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1582448185404">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1582512863962">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1582448185404" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1582448185403">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1582512863962" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1582512863962">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1582448185403" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1582448185403">
+    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1582512863962" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1582512863962">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1582448185403" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1582448185403">
+    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1582512863962" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1582512863962">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1582448185403" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1582512863962" />
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1582504269426">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1582504269426" />
+    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1582504269426">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1582504269426" />
+    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1582504269426">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1582504269426" />
+    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1582504269426">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1582504269426" />
     <state x="812" y="231" key="RollbackChangesDialog" timestamp="1582448288590">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -152,9 +198,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="616" y="240" key="run.anything.popup/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1582402172471" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1582446656742">
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1582512717777">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1582446656742" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1582512717777" />
   </component>
 </project>
