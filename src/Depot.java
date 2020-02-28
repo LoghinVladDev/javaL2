@@ -96,12 +96,8 @@ public class Depot{
      * @param obj pointer to the Vehicle object
      */
     public void addVehicle(Vehicle obj){
-        if(this.vehicleExists(obj))
-            ErrorHandler.handleError(ErrorHandler.Error.duplicateVehicle);
 
-        this._addVehicle(obj);
-
-        obj.setParentDepot(this);
+        ///pizda ma-sii
     }
 
     /**
